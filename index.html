@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Viva | Livraria</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <div class="container header-content">
+        <a class="logo" href="#inicio" aria-label="Página Viva, início">Página Viva</a>
+        <nav aria-label="Navegação principal">
+          <div class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner" aria-labelledby="titulo-banner">
+        <div class="container">
+          <h1 id="titulo-banner">Livros que transformam</h1>
+          <p>Arte e artesanato para inspirar novas ideias.</p>
+        </div>
+      </section>
+
+      <section class="products" id="produtos" aria-labelledby="titulo-produtos">
+        <div class="container">
+          <h2 id="titulo-produtos">Livros em destaque</h2>
+          <div class="book-grid">
+            <article class="book">
+              <svg class="book-cover" viewBox="0 0 200 260" role="img" aria-label="Capa ilustrativa do livro Arte em Cores" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="260" fill="#4A6B4A" />
+                <circle cx="100" cy="105" r="58" fill="#D4A23A" />
+                <path d="M38 184h124M38 199h92" stroke="#F5F1E8" stroke-width="8" />
+              </svg>
+              <h3>Arte em Cores</h3>
+              <p class="price">R$ 39,90</p>
+            </article>
+
+            <article class="book">
+              <svg class="book-cover" viewBox="0 0 200 260" role="img" aria-label="Capa ilustrativa do livro Traços e Formas" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="260" fill="#D4A23A" />
+                <rect x="38" y="48" width="124" height="124" fill="#F5F1E8" />
+                <circle cx="100" cy="110" r="38" fill="#4A6B4A" />
+                <path d="M38 195h124M38 210h90" stroke="#2B2B2B" stroke-width="8" />
+              </svg>
+              <h3>Traços e Formas</h3>
+              <p class="price">R$ 44,90</p>
+            </article>
+
+            <article class="book">
+              <svg class="book-cover" viewBox="0 0 200 260" role="img" aria-label="Capa ilustrativa do livro Mãos que Criam" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="260" fill="#F5F1E8" />
+                <path d="M35 165 100 45l65 120Z" fill="#4A6B4A" />
+                <circle cx="100" cy="115" r="27" fill="#D4A23A" />
+                <path d="M38 195h124M38 210h90" stroke="#2B2B2B" stroke-width="8" />
+              </svg>
+              <h3>Mãos que Criam</h3>
+              <p class="price">R$ 35,00</p>
+            </article>
+
+            <article class="book">
+              <svg class="book-cover" viewBox="0 0 200 260" role="img" aria-label="Capa ilustrativa do livro Ideias em Papel" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="260" fill="#2B2B2B" />
+                <rect x="40" y="43" width="120" height="130" fill="#D4A23A" />
+                <path d="M64 72h72M64 92h72M64 112h50" stroke="#F5F1E8" stroke-width="8" />
+                <path d="M38 195h124M38 210h90" stroke="#F5F1E8" stroke-width="8" />
+              </svg>
+              <h3>Ideias em Papel</h3>
+              <p class="price">R$ 29,90</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="sobre" aria-labelledby="titulo-sobre">
+        <div class="container">
+          <h2 id="titulo-sobre">Sobre a livraria</h2>
+          <p>A Página Viva é uma livraria independente de Goiânia com livros impressos e e-books de arte e artesanato.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contato">
+      <div class="container">
+        <h2>Contato</h2>
+        <address>
+          <a href="mailto:contato@pagina-viva.com.br">contato@pagina-viva.com.br</a><br />
+          Goiânia/GO
+        </address>
+        <p>© 2026 Livraria Página Viva</p>
+      </div>
+    </footer>
+  </body>
+</html>
