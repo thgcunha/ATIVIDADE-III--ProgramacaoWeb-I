@@ -2,9 +2,6 @@
 
 Página inicial estática feita com HTML5 e CSS, sem frameworks, bibliotecas, JavaScript ou imagens da internet.
 
-## Como abrir
-
-Abra `index.html` no navegador. O arquivo `style.css` deve permanecer na mesma pasta.
 
 ## Requisitos atendidos
 
